@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">scoreboard</string>
+    <string name="manchester">Манчестер \n сити</string>
+    <string name="chelsea">Челси</string>
+    <string name="reset">Сбросить</string>
+    <string name="scoret2">0</string>
+    <string name="scoret1">3</string>
+
+</resources>

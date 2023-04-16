@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Scoresize">30dp</dimen>
+    <dimen name="TTextSize">20dp</dimen>
+    <dimen name="FrameWidth">365dp</dimen>
+    <dimen name="FrameHeight">400dp</dimen>
+    <dimen name="TeamImg">150dp</dimen>
+    <dimen name="scoreSize_land">40dp</dimen>
+    <dimen name="TTextSize_land">24dp</dimen>
+    <dimen name="resetsize">14dp</dimen>
+</resources>

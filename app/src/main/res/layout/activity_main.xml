@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Back"
+        android:layout_width="@dimen/FrameWidth"
+        android:layout_height="@dimen/FrameHeight"
+        android:background="@color/FrameBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Manchester"
+        android:layout_width="@dimen/TeamImg"
+        android:layout_height="@dimen/TeamImg"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/manchester"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Chelsi"
+        android:layout_width="@dimen/TeamImg"
+        android:layout_height="@dimen/TeamImg"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/chelsea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/manchester"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TTextSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Manchester"
+        app:layout_constraintStart_toStartOf="@+id/Manchester"
+        app:layout_constraintTop_toBottomOf="@+id/Manchester" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/chelsea"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TTextSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Chelsi"
+        app:layout_constraintStart_toStartOf="@+id/Chelsi"
+        app:layout_constraintTop_toBottomOf="@+id/Chelsi" />
+
+    <TextView
+        android:id="@+id/scoret1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/scoret1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Scoresize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Manchester"
+        app:layout_constraintStart_toStartOf="@+id/Manchester"
+        app:layout_constraintTop_toBottomOf="@+id/Manchester" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Scoresize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/scoret2"
+        app:layout_constraintStart_toEndOf="@+id/scoret1"
+        app:layout_constraintTop_toTopOf="@+id/scoret1" />
+
+    <TextView
+        android:id="@+id/scoret2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/scoret2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Scoresize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Chelsi"
+        app:layout_constraintStart_toStartOf="@+id/Chelsi"
+        app:layout_constraintTop_toBottomOf="@+id/Chelsi" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:background="@color/transparent"
+        android:textStyle="bold"
+        android:textSize="@dimen/resetsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
