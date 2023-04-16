@@ -8,4 +8,6 @@
     <dimen name="scoreSize_land">40dp</dimen>
     <dimen name="TTextSize_land">24dp</dimen>
     <dimen name="resetsize">14dp</dimen>
+    <dimen name="FrameWidth_land">700dp</dimen>
+    <dimen name="FrameHeigt_land">350dp</dimen>
 </resources>

@@ -5,5 +5,6 @@
     <string name="reset">Сбросить</string>
     <string name="scoret2">0</string>
     <string name="scoret1">3</string>
+    <string name="doubledots">:</string>
 
 </resources>
